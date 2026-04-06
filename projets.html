@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Louis Gautier – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="header">
+    <nav>
+      <div class="logo">Louis Gautier</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <section class="projets-container">
+        <h2><span class="projets-titre">Projets 🛠️</span></h2>
+        <p class="projets-description">
+          Ci-dessous vous retrouverez tous mes projets personnels, scolaires ou réalisés en entreprise. Cliquez sur un projet pour en savoir plus !
+        </p>
+
+        <div class="projets-filtres">
+          <button class="projets-filtre active" data-cat="tous">Tous</button>
+          <button class="projets-filtre" data-cat="ecole">École</button>
+          <button class="projets-filtre" data-cat="entreprise">Entreprise</button>
+          <button class="projets-filtre" data-cat="seul">Autonomie</button>
+        </div>
+
+        <div class="projets-grid">
+
+          <!-- Projet GSB -->
+          <a href="projets/gsb.html" class="projets-card" data-cat="ecole">
+            <img src="images/gsb.png" alt="GSB" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'école en collaboration.</span>
+              <h3 class="projets-titre-card">Projet GSB</h3>
+              <p class="projets-desc">Mise en place d'un parc complet</p>
+            </div>
+          </a>
+
+          <!-- Centreon -->
+          <a href="projets/centreon.html" class="projets-card" data-cat="entreprise">
+            <img src="images/centreon.png" alt="Centreon" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'alternance</span>
+              <h3 class="projets-titre-card">Centreon</h3>
+              <p class="projets-desc">Mise en place d'une supervision distribuée.</p>
+            </div>
+          </a>
+
+          <!-- Veille -->
+          <a href="projets/veille.html" class="projets-card" data-cat="seul">
+            <img src="images/make.png" alt="Veille technologique" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet en autonomie</span>
+              <h3 class="projets-titre-card">Veille technologique</h3>
+              <p class="projets-desc">Via Make / Notion</p>
+            </div>
+          </a>
+
+          <!-- Passbolt -->
+          <a href="projets/passbolt.html" class="projets-card" data-cat="entreprise">
+            <img src="images/passbolt.png" alt="Passbolt" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'alternance</span>
+              <h3 class="projets-titre-card">Passbolt</h3>
+              <p class="projets-desc">Gestionnaire de mot de passe centralisé.</p>
+            </div>
+          </a>
+
+          <!-- VPN -->
+          <a href="projets/vpn.html" class="projets-card" data-cat="entreprise">
+            <img src="images/vpn.png" alt="VPN" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'alternance</span>
+              <h3 class="projets-titre-card">VPN</h3>
+              <p class="projets-desc">Wireguard / OpenVPN</p>
+            </div>
+          </a>
+
+          <!-- BGP -->
+          <a href="projets/bgp.html" class="projets-card" data-cat="entreprise">
+            <img src="images/bgp.png" alt="BGP" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'alternance</span>
+              <h3 class="projets-titre-card">BGP</h3>
+              <p class="projets-desc">Installation du protocole BGP.</p>
+            </div>
+          </a>
+
+          <!-- OSPF -->
+          <a href="projets/ospf.html" class="projets-card" data-cat="entreprise">
+            <img src="images/ospf.png" alt="OSPF" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'alternance</span>
+              <h3 class="projets-titre-card">OSPF</h3>
+              <p class="projets-desc">Installation du protocole OSPF.</p>
+            </div>
+          </a>
+
+          <!-- IPS -->
+          <a href="projets/ips.html" class="projets-card" data-cat="ecole">
+            <img src="images/python.png" alt="IPS" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'alternance</span>
+              <h3 class="projets-titre-card">Projet IPS</h3>
+              <p class="projets-desc">Programme python de prévention et de destruction de menaces.</p>
+            </div>
+          </a>
+
+          <!-- TAMARAN -->
+          <a href="projets/tamaran.html" class="projets-card" data-cat="ecole">
+            <img src="images/tamaran.png" alt="Tamaran" class="projets-img">
+            <div class="projets-contenu">
+              <span class="projets-categorie">Projet d'école</span>
+              <h3 class="projets-titre-card">Projet TAMARAN</h3>
+              <p class="projets-desc">Mise en place d'un parc, analyse des besoins d'une société.</p>
+            </div>
+          </a>
+
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>© 2025 Louis Gautier. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
